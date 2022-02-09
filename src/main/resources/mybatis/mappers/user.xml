@@ -25,6 +25,7 @@
     	]]>
 	</select>
 	
+	
 	<!-- id 중복체크 -->
 	<select id="selectId" parameterType="UserVo" resultType="string">
 		<![CDATA[
