@@ -23,6 +23,7 @@ public class UserService {
 		System.out.println(uservo);
 		userDao.insert(uservo);
 		
+		
 		//블로그 자동생성
 		BlogVo Blogvo = new BlogVo();
 		Blogvo.setId(uservo.getId());
